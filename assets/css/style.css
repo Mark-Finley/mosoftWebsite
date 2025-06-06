@@ -1,0 +1,14 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+[data-theme='dark'] body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+h1, h2 {
+  color: #0056b3;
+}
+[data-theme='dark'] h1, [data-theme='dark'] h2 {
+  color: #9ec1ff;
+}
