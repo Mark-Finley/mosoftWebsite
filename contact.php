@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $mail = new PHPMailer(true);
   try {
     $mail->setFrom($_POST["email"], $_POST["name"]);
-    $mail->addAddress("your-email@example.com");
+    $mail->addAddress("oseimarkfinley@gmail.com", "Osei Mark Finley");
     $mail->Subject = "Message from " . $_POST["name"];
     $mail->Body = $_POST["message"];
     $mail->send();
