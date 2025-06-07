@@ -35,5 +35,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
   <script src="/assets/js/theme.js"></script>
+
+  <!-- Cookie Consent Banner -->
+<div id="cookieConsent" style="position:fixed; bottom:0; left:0; right:0; background:#222; color:#fff; padding:15px; text-align:center; display:flex; justify-content:center; align-items:center; gap:15px; z-index:9999;">
+  <span>We use cookies to improve your experience. By using our site, you agree to our <a href="/privacy.php" style="color:#0d6efd; text-decoration:underline;">Privacy Policy</a>.</span>
+  <button id="acceptCookies" style="background:#0d6efd; border:none; padding:8px 15px; color:#fff; cursor:pointer; border-radius:4px;">Accept</button>
+</div>
+
+<script>
+  document.getElementById('acceptCookies').addEventListener('click', function() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    document.getElementById('cookieConsent').style.display = 'none';
+  });
+
+  // Hide banner if consent already given
+  if(localStorage.getItem('cookieConsent') === 'accepted') {
+    document.getElementById('cookieConsent').style.display = 'none';
+  }
+</script>
+
 </body>
 </html>

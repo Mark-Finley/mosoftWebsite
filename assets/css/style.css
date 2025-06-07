@@ -34,3 +34,14 @@ h1, h2 {
 .navbar-modern .nav-link:focus {
   color: #60a5fa; /* light blue hover effect */
 }
+
+
+.card.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.3);
+}
