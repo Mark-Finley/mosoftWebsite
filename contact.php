@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Port       = 587;
 
     // Email setup
-    $mail->setFrom('oseimarkfinley.com', 'MOSOFT Contact Form');
+    $mail->setFrom('oseimarkfinley@gmail.com', 'MOSOFT Contact Form');
     $mail->addAddress("oseimarkfinley@gmail.com", "Osei Mark Finley");
 
     // Add a reply-to address

@@ -43,19 +43,19 @@
       </div>
 
       <div class="col-sm-6 col-md-3 text-center">
-        <img src="/assets/img/team/sarah.jpeg" alt="Sarah Lee" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
-        <h5>Sarah Lee</h5>
+        <img src="/assets/img/team/henry.jpg" alt="Henry Siaw" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
+        <h5>Henry Siaw</h5>
         <p class="text-muted">Chief Technology Officer</p>
       </div>
 
       <div class="col-sm-6 col-md-3 text-center">
-        <img src="/assets/img/team/henry.jpg" alt="Henry Siaw" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
-        <h5>Henry Siaw</h5>
+        <img src="/assets/img/team/daniel.jpg" alt="McAndrews Owusu Peprah" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
+        <h5>McAndrews Owusu Peprah</h5>
         <p class="text-muted">Lead Developer</p>
       </div>
-
+      
       <div class="col-sm-6 col-md-3 text-center">
-        <img src="/assets/img/team/daniel.jpeg" alt="Daniel Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
+        <img src="/assets/img/team/daniel.jpg" alt="Daniel Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
         <h5>Daniel Atisika</h5>
         <p class="text-muted">Project Manager</p>
       </div>
