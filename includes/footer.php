@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row text-center text-md-start">
         <!-- Navigation Links -->
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6 mb-6">
           <h5 class="mb-3">Quick Links</h5>
           <ul class="list-unstyled">
             <li><a href="/" class="text-white text-decoration-none">Home</a></li>
@@ -15,8 +15,17 @@
           </ul>
         </div>
 
+        <!-- Company Info -->
+        <div class="col-md-6 mb-6">
+          <h5 class="mb-3">Company Info</h5>
+          <p>MOSOFT LLC<br>
+          New Oxford St., <br>Amakom, <br>Kumasi<br>
+          Email: <a href="mailto: info@mosoft.software" class="text-white text-decoration-none">info@mosoft.software</a><br>
+          Phone: <a href="tel:+1234567890" class="text-white text-decoration-none">+233 (55) 776-8401</a></p>
+        </div>
+
         <!-- Social Media Icons -->
-        <div class="col-md-6 mb-3 text-md-end">
+        <div class="col-md-6 mb-6 text-flex flex-column align-items-center">
           <h5 class="mb-3">Follow Us</h5>
           <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
           <a href="#" class="text-white me-3 fs-5"><i class="bi bi-twitter"></i></a>
@@ -27,7 +36,7 @@
 
       <hr class="border-light">
       <div class="text-center pb-3">
-        &copy; <?= date('Y') ?> MOSOFT LLC. All rights reserved.
+        &copy; <?= date('Y') ?> MOSOFT LLC. All rights reserved, made with ❤️ by the Dev Team.
       </div>
     </div>
   </footer>
