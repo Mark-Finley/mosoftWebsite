@@ -55,12 +55,12 @@
       </div>
       <!-- working to cont. -->
       <div class="col-sm-6 col-md-3 text-center">
-        <img src="/assets/img/team/001.jpg" alt="001 Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
-        <h5>001 Atisika</h5>
+        <img src="/assets/img/team/dani.jpg" alt="Daniel Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
+        <h5>Daniel Atisika</h5>
         <p class="text-muted">Project Manager</p>
       </div>
       
-      <div class="col-sm-6 col-md-6 text-center">
+      <!-- <div class="col-sm-6 col-md-6 text-center">
         <img src="/assets/img/team/001.jpg" alt="001 Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
         <h5>001 Atisika</h5>
         <p class="text-muted">Project Manager</p>
@@ -76,7 +76,7 @@
         <img src="/assets/img/team/001.jpg" alt="001 Atisika" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit: cover;">
         <h5>001 Atisika</h5>
         <p class="text-muted">Project Manager</p>
-      </div>
+      </div> -->
 
     </div>
   </section>

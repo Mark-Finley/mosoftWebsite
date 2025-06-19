@@ -36,6 +36,34 @@
   <div class="col-md-6 col-lg-3">
     <div class="card h-100 text-center shadow-sm service-card" 
          data-media-type="image" 
+         data-media-src="/assets/img/services/consulting.jpg">
+      <div class="card-body">
+        <i class="bi bi-gear-wide-connected fs-1 text-info mb-3"></i>
+        <h5 class="card-title">IT Consulting</h5>
+        <p class="card-text">Leverage expert advice to optimize your IT strategy, improve infrastructure, 
+          and implement innovative tech solutions tailored to your business goals.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Service 4 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="card h-100 text-center shadow-sm service-card" 
+         data-media-type="image" 
+         data-media-src="/assets/img/services/audit.png">
+      <div class="card-body">
+        <i class="bi bi-shield-check fs-1 text-info mb-3"></i>
+        <h5 class="card-title">IT Audit</h5>
+        <p class="card-text">Ensure your systems meet compliance standards, 
+          identify vulnerabilities, and strengthen security through detailed assessments and audits.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Service 5 -->
+  <div class="col-md-6 col-lg-6">
+    <div class="card h-100 text-center shadow-sm service-card" 
+         data-media-type="image" 
          data-media-src="/assets/img/services/cloud_solutions.jpg">
       <div class="card-body">
         <i class="bi bi-cloud-upload fs-1 text-info mb-3"></i>
@@ -45,8 +73,8 @@
     </div>
   </div>
 
-  <!-- Service 4 -->
-  <div class="col-md-6 col-lg-3">
+  <!-- Service 6 -->
+  <div class="col-md-6 col-lg-6">
     <div class="card h-100 text-center shadow-sm service-card" 
          data-media-type="image" 
          data-media-src="/assets/img/services/cybersecurity.jpg">
